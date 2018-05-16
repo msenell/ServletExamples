@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class GetFormData extends HttpServlet 
 {
 
+    //GET Taleplerini Karşılayacak Olan Method:
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException 
@@ -45,4 +46,12 @@ public class GetFormData extends HttpServlet
                 "</html>"
         );
     }
+    
+    
+    //POST Taleplerini karşılayacak olan method:
+    public void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+
+      doGet(request, response);
+   }
 }
