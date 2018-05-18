@@ -1,0 +1,10 @@
+<web-app>
+  <servlet>
+    <servlet-name>HTTPHeaderResponse</servlet-name>
+    <servlet-class>com.org.servletexamples.HTTPResponse</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HTTPHeaderResponse</servlet-name>
+    <url-pattern>/HTTPHeaderResponse</url-pattern>
+  </servlet-mapping>
+</web-app>
