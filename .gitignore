@@ -36,3 +36,4 @@ nbactions.xml
 nb-configuration.xml
 /04_HTTPHeaderRequest/nbproject/private/
 /05_HTTPHeaderResponse/nbproject/private/
+/06_ErrorHandler/nbproject/private/
