@@ -38,3 +38,4 @@ nb-configuration.xml
 /05_HTTPHeaderResponse/nbproject/private/
 /06_ErrorHandler/nbproject/private/
 /07_CookieHandling/nbproject/private/
+/08_SessionTracking/nbproject/private/
