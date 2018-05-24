@@ -40,3 +40,4 @@ nb-configuration.xml
 /07_CookieHandling/nbproject/private/
 /08_SessionTracking/nbproject/private/
 /09_DatabaseAccess/nbproject/private/
+/10_DatabaseAccessWithHibernate/nbproject/private/

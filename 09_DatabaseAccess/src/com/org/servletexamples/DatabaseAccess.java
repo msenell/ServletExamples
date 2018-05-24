@@ -19,7 +19,7 @@ public class DatabaseAccess extends HttpServlet
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException 
     {
-        //Veritabanı sürücü ve adres bilgisi verilir:
+    //Veritabanı sürücü ve adres bilgisi verilir:
         final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
         final String DB_URL = "jdbc:mysql://localhost:3306/TEST?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&AutoReconnect=true&useSSL=false";
         
