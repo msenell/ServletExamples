@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>Localization</servlet-name>
+        <servlet-class>com.org.servletexamples.Localization</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Localization</servlet-name>
+        <url-pattern>/Localization</url-pattern>
+    </servlet-mapping>
+</web-app>
