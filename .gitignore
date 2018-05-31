@@ -43,3 +43,5 @@ nb-configuration.xml
 /10_DatabaseAccessWithHibernate/nbproject/private/
 /11_FileUpload/nbproject/private/
 /12_DateHandling/nbproject/private/
+/13_PageRedirect/nbproject/private/
+/14_EMailSending/nbproject/private/

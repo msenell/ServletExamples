@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>E-Posta Gönderme Sayfası</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div>
+        <h3>E-Posta Gönderme Sayfası</h3>
+        <br/>
+        <form method="POST" action="EMailSending">
+            Kime:<input type="text" name="to"/>
+            <br/>
+            Konu:<input type="text" name="subject"/>
+            <br/>
+            Mesaj:
+            <br />
+            <textarea rows="10" cols="70" name="message"></textarea>
+            <br/>
+            <input type="submit" value="Gönder"/>
+        </form>
+    </div>
+</body>
+</html>
